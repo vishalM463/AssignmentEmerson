@@ -1,0 +1,93 @@
+08-07-2021 19:04:58 INFO [BaseClass]: #### Starting Test Execution for Purchase Order ####
+08-07-2021 19:04:58 INFO [BaseClass]: 3 rows returned from excel sheet
+08-07-2021 19:04:58 INFO [BaseClass]: ################## Start Case 1 for Order Id : 4631084956###############
+08-07-2021 19:04:58 INFO [BaseClass]: ********************** searchOrderMain method Called ************************
+08-07-2021 19:05:03 INFO [BaseClass]: Order details are available for Order Id : 4631084956
+08-07-2021 19:05:03 INFO [BaseClass]: Duplicates values are not present for Order Id : 4631084956
+08-07-2021 19:05:03 INFO [BaseClass]: ********************** isMoreLinkPresent method Called ************************
+08-07-2021 19:05:08 INFO [BaseClass]: ********************** clickMoreLink method Called ************************
+08-07-2021 19:05:08 INFO [BaseClass]: ********************** getTrackDetails method Called ************************
+08-07-2021 19:05:08 INFO [BaseClass]: Tracking details for order ID 4631084956 is : 
+Carrier: CON-WAY Tracking Number: 621401756
+08-07-2021 19:05:08 INFO [BaseClass]: ################## End Case 1 for Order Id : 4631084956###############
+08-07-2021 19:05:08 INFO [BaseClass]: ################## Start Case 2 for Order Id : 4631081326###############
+08-07-2021 19:05:08 INFO [BaseClass]: ********************** searchOrder method Called ************************
+08-07-2021 19:05:13 INFO [BaseClass]: Order details are available for Order Id : 4631081326
+08-07-2021 19:05:13 INFO [BaseClass]: Duplicates values are not present for Order Id : 4631081326
+08-07-2021 19:05:13 INFO [BaseClass]: ********************** isMoreLinkPresent method Called ************************
+08-07-2021 19:05:18 INFO [BaseClass]: ********************** clickMoreLink method Called ************************
+08-07-2021 19:05:18 INFO [BaseClass]: ********************** getTrackDetails method Called ************************
+08-07-2021 19:05:18 INFO [BaseClass]: Tracking details for order ID 4631081326 is : 
+Carrier: CON-WAY Tracking Number: 621401760
+08-07-2021 19:05:18 INFO [BaseClass]: ################## End Case 2 for Order Id : 4631081326###############
+08-07-2021 19:05:18 INFO [BaseClass]: ################## Start Case 3 for Order Id : 36797###############
+08-07-2021 19:05:18 INFO [BaseClass]: ********************** searchOrder method Called ************************
+08-07-2021 19:05:23 INFO [BaseClass]: Order details are available for Order Id : 36797
+08-07-2021 19:05:23 INFO [BaseClass]: Duplicates values are present for Order Id : 36797 skipping Track Details fetch ....
+08-07-2021 19:05:23 INFO [BaseClass]: ################## End Case 3 for Order Id : 36797###############
+08-07-2021 19:05:23 INFO [BaseClass]: ################## End Case 3 for Order Id : 36797###############
+08-07-2021 19:05:23 INFO [BaseClass]:  ##**********EXIT TEST *************##
+08-07-2021 19:05:42 INFO [BaseClass]: #### Starting Sales Order Test Execution ####
+08-07-2021 19:05:42 INFO [BaseClass]: 8 rows returned from excel sheet
+08-07-2021 19:05:42 INFO [BaseClass]: Executing Case 1 for Order Id : 10194902
+08-07-2021 19:05:42 INFO [BaseClass]: Searching from landing page search
+08-07-2021 19:05:42 INFO [BaseClass]: ********************** searchOrderMain method Called ************************
+08-07-2021 19:05:47 INFO [BaseClass]: Order details are available for Order Id : 10194902
+08-07-2021 19:05:47 INFO [BaseClass]: Duplicates values are not present for Order Id : 10194902
+08-07-2021 19:05:47 INFO [BaseClass]: ********************** isMoreLinkPresent method Called ************************
+08-07-2021 19:05:52 INFO [BaseClass]: ********************** clickMoreLink method Called ************************
+08-07-2021 19:05:52 INFO [BaseClass]: ********************** getTrackDetails method Called ************************
+08-07-2021 19:05:52 INFO [BaseClass]: Tracking details for order ID 10194902 is : 
+Carrier: CON-WAY Tracking Number: 621401760
+08-07-2021 19:05:52 INFO [BaseClass]: Executing Case 2 for Order Id : 10194905
+08-07-2021 19:05:52 INFO [BaseClass]: ********************** searchOrder method Called ************************
+08-07-2021 19:05:56 INFO [BaseClass]: Order details are available for Order Id : 10194905
+08-07-2021 19:05:56 INFO [BaseClass]: Duplicates values are not present for Order Id : 10194905
+08-07-2021 19:05:56 INFO [BaseClass]: ********************** isMoreLinkPresent method Called ************************
+08-07-2021 19:06:01 INFO [BaseClass]: ********************** clickMoreLink method Called ************************
+08-07-2021 19:06:02 INFO [BaseClass]: ********************** getTrackDetails method Called ************************
+08-07-2021 19:06:02 INFO [BaseClass]: Tracking details for order ID 10194905 is : 
+Carrier: CON-WAY Tracking Number: 621401756
+08-07-2021 19:06:02 INFO [BaseClass]: Executing Case 3 for Order Id : 10194995
+08-07-2021 19:06:02 INFO [BaseClass]: ********************** searchOrder method Called ************************
+08-07-2021 19:06:06 INFO [BaseClass]: Order details are available for Order Id : 10194995
+08-07-2021 19:06:06 INFO [BaseClass]: Duplicates values are not present for Order Id : 10194995
+08-07-2021 19:06:06 INFO [BaseClass]: ********************** isMoreLinkPresent method Called ************************
+08-07-2021 19:06:11 INFO [BaseClass]: ********************** clickMoreLink method Called ************************
+08-07-2021 19:06:11 INFO [BaseClass]: ********************** getTrackDetails method Called ************************
+08-07-2021 19:06:11 INFO [BaseClass]: Tracking details for order ID 10194995 is : 
+Carrier: FEDEX GROUND Tracking Number: 147751653593
+08-07-2021 19:06:11 INFO [BaseClass]: Executing Case 4 for Order Id : 100022364
+08-07-2021 19:06:11 INFO [BaseClass]: ********************** searchOrder method Called ************************
+08-07-2021 19:06:16 INFO [BaseClass]: Order details are available for Order Id : 100022364
+08-07-2021 19:06:16 INFO [BaseClass]: Duplicates values are not present for Order Id : 100022364
+08-07-2021 19:06:16 INFO [BaseClass]: ********************** isMoreLinkPresent method Called ************************
+08-07-2021 19:06:27 INFO [BaseClass]: Tracking number is not available
+08-07-2021 19:06:27 INFO [BaseClass]: Executing Case 5 for Order Id : 10003951
+08-07-2021 19:06:27 INFO [BaseClass]: ********************** searchOrder method Called ************************
+08-07-2021 19:06:31 INFO [BaseClass]: Order details are available for Order Id : 10003951
+08-07-2021 19:06:32 INFO [BaseClass]: Duplicates values are present for Order Id : 10003951 skipping Track Details fetch ....
+08-07-2021 19:06:32 INFO [BaseClass]: Executing Case 6 for Order Id : 6215814
+08-07-2021 19:06:32 INFO [BaseClass]: Searching from landing page search
+08-07-2021 19:06:32 INFO [BaseClass]: ********************** searchOrderMain method Called ************************
+08-07-2021 19:06:36 INFO [BaseClass]: Order details are available for Order Id : 6215814
+08-07-2021 19:06:36 INFO [BaseClass]: Duplicates values are not present for Order Id : 6215814
+08-07-2021 19:06:36 INFO [BaseClass]: ********************** isMoreLinkPresent method Called ************************
+08-07-2021 19:06:41 INFO [BaseClass]: ********************** clickMoreLink method Called ************************
+08-07-2021 19:06:41 INFO [BaseClass]: ********************** getTrackDetails method Called ************************
+08-07-2021 19:06:41 INFO [BaseClass]: Tracking details for order ID 6215814 is : 
+Carrier: FEDEX GROUND Tracking Number: 952575143477
+08-07-2021 19:06:41 INFO [BaseClass]: Executing Case 7 for Order Id : 190022398
+08-07-2021 19:06:41 INFO [BaseClass]: ********************** searchOrder method Called ************************
+08-07-2021 19:06:46 INFO [BaseClass]: Order Not Found
+08-07-2021 19:06:46 INFO [BaseClass]: Order details are not available for Order Id : 190022398 skipping Duplicate Check and Track Details fetch ....
+08-07-2021 19:06:46 INFO [BaseClass]: Executing Case 8 for Order Id : 6221985
+08-07-2021 19:06:46 INFO [BaseClass]: ********************** searchOrder method Called ************************
+08-07-2021 19:06:50 INFO [BaseClass]: Order details are available for Order Id : 6221985
+08-07-2021 19:06:50 INFO [BaseClass]: Duplicates values are not present for Order Id : 6221985
+08-07-2021 19:06:50 INFO [BaseClass]: ********************** isMoreLinkPresent method Called ************************
+08-07-2021 19:06:55 INFO [BaseClass]: ********************** clickMoreLink method Called ************************
+08-07-2021 19:06:55 INFO [BaseClass]: ********************** getTrackDetails method Called ************************
+08-07-2021 19:06:55 INFO [BaseClass]: Tracking details for order ID 6221985 is : 
+Carrier: FEDEX Tracking Number: 952575163858
+08-07-2021 19:06:56 INFO [BaseClass]:  ##**********EXIT TEST *************##
