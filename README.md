@@ -1,6 +1,15 @@
 # AssignmentEmerson
 ### Pls note that unit testing of framework is done only based on inputs provided in assignment requirement file
 
+### Environment Details ###
+OS: Win 10
+Language : Java
+Framework: Data Driven Custom Framework
+Code Editor: intellij Community
+UnitTest Tool: TestNG
+Build tool: Maven
+
+
 ### Prerequisites ###
 1. Win 10 64 bit with java version "1.8.0_281" installed.
 2. Any code editor, preferably intellij or eclipse.
