@@ -35,12 +35,8 @@ public class SearchPage extends BaseClass{
     @FindBy(id = "searchButton") WebElement searchButton;
     @FindBy(id = "ddlSearchType") WebElement orderTypeSelect;
 
-//    @FindBy(xpath = "searchButton") WebElement moreLink;
-//    @FindBy(xpath = "searchButton") List<WebElement> moreLinks;
-
-//    @FindBy(xpath = "ddlSearchType") WebElement trackDetails;
-
     public void searchOrder(String orderID, String orderType) {
+        logGen.info("********************** searchOrder method Called ************************");
         Select objSelect =new Select(orderTypeSelect);
         if (orderType.equalsIgnoreCase("Purchase")){
             objSelect.selectByIndex(0);
@@ -54,6 +50,7 @@ public class SearchPage extends BaseClass{
     }
 
     public void searchOrderMain(String orderID, String orderType) {
+        logGen.info("********************** searchOrderMain method Called ************************");
         Select objSelect =new Select(mainOrderTypeSelect);
         if (orderType.equalsIgnoreCase("Purchase")){
             objSelect.selectByIndex(0);
@@ -67,6 +64,7 @@ public class SearchPage extends BaseClass{
     }
 
     public void clickMoreLink(){
+        logGen.info("********************** clickMoreLink method Called ************************");
         WebElement moreLink = fetchElements.getWebElement("XPATH",configData.getMoreLinkXPATH());
         WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(15));
         wait.until(ExpectedConditions.visibilityOf(moreLink));
@@ -74,11 +72,13 @@ public class SearchPage extends BaseClass{
     }
 
     public boolean isMoreLinkPresent() throws InterruptedException {
-        Thread.sleep(5000);
+        logGen.info("********************** isMoreLinkPresent method Called ************************");
+        Thread.sleep(5000);//For testing sync, will remove in later code updates
        return fetchElements.getWebElements("XPATH", configData.getMoreLinkXPATH()).size()>0;
     }
 
     public String getTrackDetails(){
+        logGen.info("********************** getTrackDetails method Called ************************");
         WebElement trackDetails = fetchElements.getWebElement("XPATH",configData.getTrackDetailsXPATH());
         WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
         wait.until(ExpectedConditions.visibilityOf(trackDetails));
