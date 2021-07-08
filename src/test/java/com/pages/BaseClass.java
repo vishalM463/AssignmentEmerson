@@ -34,7 +34,7 @@ public class BaseClass {
     @BeforeClass
     public void reportSetup() {
 
-        ExtentHtmlReporter htmlReporter = new ExtentHtmlReporter(new File(System.getProperty("user.dir")+"/Reports/Assignment_"+ Helper.getDateTime() +".html"));
+        ExtentHtmlReporter htmlReporter = new ExtentHtmlReporter(new File(System.getProperty("user.dir")+"/Reports/Assignment_" + this.getClass().getSimpleName() + "_" + Helper.getDateTime() +".html"));
         reports = new ExtentReports();
         reports.attachReporter(htmlReporter);
 
